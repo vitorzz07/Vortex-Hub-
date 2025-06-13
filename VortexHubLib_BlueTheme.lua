@@ -99,6 +99,8 @@ Grey="#484848",
 }
 }
 
+g.SetTheme("Blue")  -- Ativa o tema Blue para toda a interface
+
 function g.Init(h)
 g.WindUI=h
 end
