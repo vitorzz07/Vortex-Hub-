@@ -99,8 +99,6 @@ Grey="#484848",
 }
 }
 
-g.SetTheme("Blue")  -- Ativa o tema Blue para toda a interface
-
 function g.Init(h)
 g.WindUI=h
 end
@@ -401,15 +399,26 @@ end
 
 return g end function a.b()
 return{
+
+Blue = {
+    Name = "Blue",
+    Accent = "#1565c0",
+    Outline = "#ffffff",
+   Text = "#ffffff",
+    Placeholder = "#90caf9",
+    Background = "#0d47a1",
+    Button = "#1976d2",
+    Icon = "#bbdefb",
+},
 Dark={
 Name="Dark",
-Accent="#1565C0",
-Outline="#90CAF9",
-Text="#E3F2FD",
-Placeholder="#64B5F6",
-Background="#0D47A1",
-Button="#1976D2",
-Icon="#BBDEFB",
+Accent="#18181b",
+Outline="#FFFFFF",
+Text="#FFFFFF",
+Placeholder="#999999",
+Background="#0e0e10",
+Button="#52525b",
+Icon="#a1a1aa",
 },
 Light={
 Name="Light",
